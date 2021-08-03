@@ -151,11 +151,8 @@ body {
   margin: 0;
 }
 
-.container img{
-  margin-bottom: 40px;
-}
-.container figure img{
-  margin-bottom: 0;
+img:not(figure img) {
+margin-bottom: 40px;
 }
 .container figure{
   display: inline-block;
