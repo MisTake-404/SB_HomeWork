@@ -34,7 +34,7 @@ body {
   background-color: #070217;
 }
 
-.main-content .logo, .links{
+.main-content .logo, .main-content .links{
   margin-bottom: 50px;
 }
 
@@ -82,10 +82,10 @@ body {
 }
 .article-main-content .grey_block p{
   width: 692px;
-  padding-bottom: 10px;
-  margin: 0;
+	margin: 0;
+  margin-bottom: 10px;
 }
-img:not(figure img) {
+.article-main-content img:not(.figure_img) {
 margin-bottom: 40px;
 }
 .article-main-content figure{
