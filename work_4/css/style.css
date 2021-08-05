@@ -86,7 +86,7 @@ body {
 	background-color: #3f2aff;
 }
 
-.article-main-content h1, h2, h3{
+.article-main-content h1, .article-main-content h2, .article-main-content h3{
   margin: 0;
 }
 .article-main-content h1{
@@ -136,10 +136,10 @@ body {
   background-repeat: no-repeat;
 	background-size: 274px auto;
 }
-.grey_block_img_1{
+.article-main-content .grey_block_img_1{
 	background-image: url(../img/decorate-1.png);
 }
-.grey_block_img_2{
+.article-main-content .grey_block_img_2{
 	background-image: url(../img/decorate-2.png);
 }
 .article-main-content .grey_block:not(:last-child){

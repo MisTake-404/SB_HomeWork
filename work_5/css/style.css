@@ -86,7 +86,7 @@ body {
 	background-color: #3f2aff;
 }
 
-.article-main-content h1, h2, h3{
+.article-main-content h1, .article-main-content h2, .article-main-content h3{
   margin: 0;
 }
 .article-main-content h1{
@@ -136,10 +136,10 @@ body {
   background-repeat: no-repeat;
 	background-size: 274px auto;
 }
-.grey_block_img_1{
+.article-main-content .grey_block_img_1{
 	background-image: url(../img/decorate-1.png);
 }
-.grey_block_img_2{
+.article-main-content .grey_block_img_2{
 	background-image: url(../img/decorate-2.png);
 }
 .article-main-content .grey_block:not(:last-child){
@@ -241,20 +241,20 @@ margin-bottom: 40px;
 .container_modules .modules ul li:nth-child(2n+1){
 	margin-right: 25px;
 }
-.modules_1{
+.container_modules .modules_1{
 	background-image: url(../img/modules_1.jpg);
 }
-.modules_2{
+.container_modules .modules_2{
 	background-image: url(../img/modules_2.jpg);
 }
-.modules_3{
+.container_modules .modules_3{
 	background-image: url(../img/modules_3.jpg);
 }
-.modules_4{
+.container_modules .modules_4{
 	background-image: url(../img/modules_4.jpg);
 }
 
-.modules_more{
+.container_modules .modules_more{
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 21px;
