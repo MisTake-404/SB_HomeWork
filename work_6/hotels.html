@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <meta http-equiv="Refresh" content="5" />
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <!-- <link rel="stylesheet" href="style.css"> -->
   <title>Lagoona</title>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="header-top">
+  <div class="index_container">
+    <header>
+      <div class="header_info">
         <a href="" class="logo">
           <img src="img/logo.png" alt="" class="logo-img">
         </a>
@@ -22,8 +22,8 @@
         </a>
       </div>
 
-      <div class="header-bottom">
-        <nav class="nav">
+      <div class="header_naw">
+        <nav>
           <ul class="nav-list">
             <li class="nav-item">
               <a href="" class="nav-link">О нас</a>
@@ -45,135 +45,125 @@
             </li>
           </ul>
         </nav>
-        <div class="search">
-          <input class="search-input" type="text">
-          <button class="submit-img"></button>
+
+        <div class="header_button">
+          <button type="button" name="button">Хочу тур</button>
+          <button type="button" name="button">Обратный звонок</button>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <div class="container">
-      <section class="quickBooking">
-        <h2 class="section-heading">Быстрая бронь</h2>
-        <form class="quickBooking-input-list" action="index.html" method="post">
-          <input class="quickBooking-input-item" type="text" value="Город">
-          <input class="quickBooking-input-item" type="text" value="Категория номера">
-          <input class="quickBooking-input-item" type="text" value="Дата заселения">
-          <input class="quickBooking-input-item" type="text" value="Количество ночей">
-          <input class="quickBooking-input-item" type="text" value="Количество гостей">
-        </form>
-        <button class="quickBooking-btn" type="button" name="button">Найти номер</button>
-        <a href="" class="quickBooking-link">9 756</a>
-        <span class="quickBooking-text">
-          предложений доступно
-        </span>
-      </section>
-
-      <section class="specialOffer">
-        <h2 class="section-heading">Спецпредложение</h2>
-        <div class="specialOffer-content">
-          <h3 class="specialOffer-heading">Номера категории люкс</h3>
-          <div class="specialOffer-info">
-            <span class="specialOffer-count">от 5 000 р</span>
-            <a href="" class="specialOffer-more">Подробнее <code>&gt;</code></a>
+    <main>
+      <section class="special_offers">
+        <h2>Спецпредложение</h2>
+        <div class="special_offers_content">
+          <div class="offers_left">
+            <div class="offers_left_top">
+              <h3>Мальдивские острова</h3>
+              <p>от 55 000 р</p>
+              <button type="button" name="button">Подробнее</button>
+            </div>
+            <div class="offers_left_bottom">
+              <h3>Горящий тур на остров Крит</h3>
+              <p>от 30 000 р</p>
+              <button type="button" name="button">Подробнее</button>
+            </div>
+          </div>
+          <div class="offers_right">
+            <h3>Номера категории люкс</h3>
+            <p>от 5000 р</p>
+            <button type="button" name="button">Подробнее</button>
           </div>
         </div>
       </section>
-    </div>
 
-    <section class="aboutUs">
-      <div class="container">
-        <h2 class="section-heading">О нас</h2>
-        <p class="aboutUs-text">
+      <section class="about_us">
+        <h2>О нас</h2>
+        <p>
           Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.
         </p>
-      </div>
-    </section>
+      </section>
 
-    <section class="services">
-      <div class="container">
-        <h2 class="section-heading">Услуги</h2>
-        <ul class="services-list">
-          <li class="services-item">
-            <img src="img/services_1.jpg" alt="">
-            <div class="services-info">
-              <a href="" class="services-more">Эксклюзивное обслуживание <code>&gt;</code></a>
-              <p class="services-text">Равным образом постоянный количественный рост и сфера нашей активности</p>
+      <section class="services">
+        <h2>Услуги</h2>
+        <ul class="services_content">
+          <li>
+            <div class="services_content_block_img"></div>
+            <div class="services_content_block_info">
+              <h3>Эксклюзивное обслуживание</h3><span></span>
+              <p>Равным образом постоянный количественный рост и сфера нашей активности</p>
             </div>
           </li>
-          <li class="services-item">
-            <img src="img/services_2.jpg" alt="">
-            <div class="services-info">
-              <a href="" class="services-more">Аренда банкетных залов <code>&gt;</code></a>
-              <p class="services-text">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
+
+          <li>
+            <div class="services_content_block_img"></div>
+            <div class="services_content_block_info">
+              <h3>Аренда банкетных залов</h3><span></span>
+              <p>Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
             </div>
           </li>
-          <li class="services-item">
-            <img src="img/services_3.jpg" alt="">
-            <div class="services-info">
-              <a href="" class="services-more">Сауны, бассейны, бани, фитнес-залы <code>&gt;</code></a>
-              <p class="services-text">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+
+          <li>
+            <div class="services_content_block_img"></div>
+            <div class="services_content_block_info">
+              <h3>Сауны, бассейны, бани, фитнес-залы</h3><span></span>
+              <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
             </div>
           </li>
-          <li class="services-item">
-            <img src="img/services_4.jpg" alt="">
-            <div class="services-info">
-              <a href="" class="services-more">Охраняемые автомобильные стоянки <code>&gt;</code></a>
-              <p class="services-text">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+
+          <li>
+            <div class="services_content_block_img"></div>
+            <div class="services_content_block_info">
+              <h3>Охраняемые автомобильные стоянки</h3><span></span>
+              <p>Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
             </div>
           </li>
         </ul>
-      </div>
-    </section>
+      </section>
 
-    <section class="advantages">
-      <div class="container">
-        <h2 class="section-heading">Преимущества</h2>
-        <ul class="advantages-list">
-          <li class="advantages-item">
-            <img src="img/icon_1.png" alt="">
+      <section class="advantages">
+        <h2>Преимущества</h2>
+        <ul class="advantages_list">
+          <li>
+            <div class="advantages_list_img"></div>
             <p>Идейные соображения высшего порядка, а также постоянный количественный рост</p>
           </li>
-          <li class="advantages-item">
-            <img src="img/icon_2.png" alt="">
+          <li>
+            <div class="advantages_list_img"></div>
             <p>Значимость этих проблем настолько очевидна, что вопрос остается открытым</p>
           </li>
-          <li class="advantages-item">
-            <img src="img/icon_3.png" alt="">
+          <li>
+            <div class="advantages_list_img"></div>
             <p>Таким образом реализация плановых заданий играет важную роль для понимания</p>
           </li>
-          <li class="advantages-item">
-            <img src="img/icon_4.png" alt="">
+          <li>
+            <div class="advantages_list_img"></div>
             <p>Повседневная практика показывает, что сложившаяся структура организации</p>
           </li>
-          <li class="advantages-item">
-            <img src="img/icon_5.png" alt="">
+          <li>
+            <div class="advantages_list_img"></div>
             <p>Равным образом рамки и место обучения кадров способствует подготовки сотрудника</p>
           </li>
-          <li class="advantages-item">
-            <img src="img/icon_6.png" alt="">
+          <li>
+            <div class="advantages_list_img"></div>
             <p>Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса</p>
           </li>
-          <li class="advantages-item">
-            <img src="img/icon_7.png" alt="">
+          <li>
+            <div class="advantages_list_img"></div>
             <p>Повседневная практика показывает, что дальнейшее развитие различных форм</p>
           </li>
-          <li class="advantages-item">
-            <img src="img/icon_8.png" alt="">
+          <li>
+            <div class="advantages_list_img"></div>
             <p>Значимость этого настолько очевидна, что консультация наших экспертов помогает</p>
           </li>
         </ul>
-      </div>
-    </section>
+      </section>
 
-    <section class="placement">
-      <div class="container">
-        <h2 class="section-heading">Размещение</h2>
-        <ul class="placement-list">
-          <li class="placement-item">
-            <img src="img/placement_1.jpg" alt="">
+      <section class="placement">
+        <h2>Размещение</h2>
+        <ul class="placement_list">
+          <li>
+            <div class="placement_img"></div>
             <div class="placement-info">
               <p>от 4 698 р / ночь</p>
               <img src="img/i-star.png" alt="Рейтинг 4 из 5">
@@ -186,8 +176,8 @@
               <button type="button" name="button">Номера</button>
             </div>
           </li>
-          <li class="placement-item">
-            <img src="img/placement_2.jpg" alt="">
+          <li>
+            <div class="placement_img"></div>
             <div class="placement-info">
               <p>от 5 148 р / ночь</p>
               <img src="img/i-star.png" alt="Рейтинг 4 из 5">
@@ -200,8 +190,8 @@
               <button type="button" name="button">Номера</button>
             </div>
           </li>
-          <li class="placement-item">
-            <img src="img/placement_3.jpg" alt="">
+          <li>
+            <div class="placement_img"></div>
             <div class="placement-info">
               <p>от 6 254 р / ночь</p>
               <img src="img/i-star.png" alt="Рейтинг 5 из 5">
@@ -214,8 +204,8 @@
               <button type="button" name="button">Номера</button>
             </div>
           </li>
-          <li class="placement-item">
-            <img src="img/placement_4.jpg" alt="">
+          <li>
+            <div class="placement_img"></div>
             <div class="placement-info">
               <p>от 6 320 р / ночь</p>
               <img src="img/i-star.png" alt="Рейтинг 5 из 5">
@@ -228,8 +218,8 @@
               <button type="button" name="button">Номера</button>
             </div>
           </li>
-          <li class="placement-item">
-            <img src="img/placement_5.jpg" alt="">
+          <li>
+            <div class="placement_img"></div>
             <div class="placement-info">
               <p>от 6 457р / ночь</p>
               <img src="img/i-star.png" alt="Рейтинг 4 из 5">
@@ -242,8 +232,8 @@
               <button type="button" name="button">Номера</button>
             </div>
           </li>
-          <li class="placement-item">
-            <img src="img/placement_6.jpg" alt="">
+          <li>
+            <div class="placement_img"></div>
             <div class="placement-info">
               <p>от 6 490 р / ночь</p>
               <img src="img/i-star.png" alt="Рейтинг 4 из 5">
@@ -256,8 +246,8 @@
               <button type="button" name="button">Номера</button>
             </div>
           </li>
-          <li class="placement-item">
-            <img src="img/placement_7.jpg" alt="">
+          <li>
+            <div class="placement_img"></div>
             <div class="placement-info">
               <p>от 6 505 р / ночь</p>
               <img src="img/i-star.png" alt="Рейтинг 5 из 5">
@@ -270,8 +260,8 @@
               <button type="button" name="button">Номера</button>
             </div>
           </li>
-          <li class="placement-item">
-            <img src="img/placement_8.jpg" alt="">
+          <li>
+            <div class="placement_img"></div>
             <div class="placement-info">
               <p>от 6 824 р / ночь</p>
               <img src="img/i-star.png" alt="Рейтинг 4 из 5">
@@ -284,13 +274,13 @@
               <button type="button" name="button">Номера</button>
             </div>
           </li>
-          <li class="placement-item">
+          <li class="placement_last_item">
             <a href="" class="placement-more">Посмотреть все варианты <code>&gt;</code></a>
           </li>
         </ul>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
+  </div>
 </body>
 </html>
