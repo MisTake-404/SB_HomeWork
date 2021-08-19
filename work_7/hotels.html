@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <div class="container">
+    <div class="container header-container">
       <div class="header_info">
         <a href="" class="logo">
           <img src="img/logo.png" alt="" class="logo-img">
@@ -48,6 +48,10 @@
           </ul>
         </nav>
 
+        <svg width="1" height="50" viewBox="0 0 1 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="1" height="50" fill="#E1E1E1"/></svg>
+
+
         <div class="header_button">
           <a href="#">Хочу тур</a>
           <button type="button" name="button">Обратный звонок</button>
@@ -62,21 +66,23 @@
         <h2>Спецпредложение</h2>
         <div class="special_offers_content">
           <div class="offers_left">
-            <div class="offers_left_top">
+            <div class="offers_item offers_left_top">
               <h3>Мальдивские острова</h3>
               <p>от 55 000 р</p>
               <button type="button" name="button">Подробнее</button>
             </div>
-            <div class="offers_left_bottom">
+            <div class="offers_item offers_left_bottom">
               <h3>Горящий тур на остров Крит</h3>
               <p>от 30 000 р</p>
               <button type="button" name="button">Подробнее</button>
             </div>
           </div>
           <div class="offers_right">
-            <h3>Номера категории люкс</h3>
-            <p>от 5000 р</p>
-            <button type="button" name="button">Подробнее</button>
+            <div class="offers_item">
+              <h3>Номера категории люкс</h3>
+              <p>от 5000 р</p>
+              <button type="button" name="button">Подробнее</button>
+            </div>
           </div>
         </div>
       </div>
@@ -88,7 +94,7 @@
         <p>
           Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.
         </p>
-    </div>
+      </div>
     </section>
 
     <section class="services">
@@ -193,14 +199,16 @@
           <li>
             <img class="placement_img" src="img/placement_1.jpg" alt="">
             <div class="placement-info">
-              <p>от 4 698 р / ночь</p>
-              <span>
-                <img src="img/i-star.png" alt="Рейтинг 4 из 5">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star-empty.png">
-              </span>
+              <div class="placement-info-star">
+                <p>от 4 698 р / ночь</p>
+                <span>
+                  <img src="img/i-star.png" alt="Рейтинг 4 из 5">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star-empty.png">
+                </span>
+              </div>
               <h3 class="placement-heading">Lagoona española</h3>
               <p>Барселона, Испания</p>
               <a href="">Номера</a>
@@ -209,14 +217,16 @@
           <li>
             <img class="placement_img" src="img/placement_2.jpg" alt="">
             <div class="placement-info">
-              <p>от 5 148 р / ночь</p>
-              <span>
-                <img src="img/i-star.png" alt="Рейтинг 4 из 5">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star-empty.png">
-              </span>
+              <div class="placement-info-star">
+                <p>от 5 148 р / ночь</p>
+                <span>
+                  <img src="img/i-star.png" alt="Рейтинг 4 из 5">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star-empty.png">
+                </span>
+              </div>
               <h3 class="placement-heading">Lagoona son típicas</h3>
               <p>Барселона, Испания</p>
               <a href="">Номера</a>
@@ -225,14 +235,16 @@
           <li>
             <img class="placement_img" src="img/placement_3.jpg" alt="">
             <div class="placement-info">
-              <p>от 6 254 р / ночь</p>
-              <span>
-                <img src="img/i-star.png" alt="Рейтинг 5 из 5">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-              </span>
+              <div class="placement-info-star">
+                <p>от 6 254 р / ночь</p>
+                <span>
+                  <img src="img/i-star.png" alt="Рейтинг 5 из 5">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                </span>
+              </div>
               <h3 class="placement-heading">Lagoona de la guerra</h3>
               <p>Барселона, Испания</p>
               <a href="">Номера</a>
@@ -241,14 +253,16 @@
           <li>
             <img class="placement_img" src="img/placement_4.jpg" alt="">
             <div class="placement-info">
-              <p>от 6 320 р / ночь</p>
-              <span>
-                <img src="img/i-star.png" alt="Рейтинг 5 из 5">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-              </span>
+              <div class="placement-info-star">
+                <p>от 6 320 р / ночь</p>
+                <span>
+                  <img src="img/i-star.png" alt="Рейтинг 5 из 5">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                </span>
+              </div>
               <h3 class="placement-heading">Lagoona mentira piadosa</h3>
               <p>Барселона, Испания</p>
               <a href="">Номера</a>
@@ -257,14 +271,16 @@
           <li>
             <img class="placement_img" src="img/placement_5.jpg" alt="">
             <div class="placement-info">
-              <p>от 6 457р / ночь</p>
-              <span>
-                <img src="img/i-star.png" alt="Рейтинг 4 из 5">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star-empty.png">
-              </span>
+              <div class="placement-info-star">
+                <p>от 6 457р / ночь</p>
+                <span>
+                  <img src="img/i-star.png" alt="Рейтинг 4 из 5">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star-empty.png">
+                </span>
+              </div>
               <h3 class="placement-heading">Lagoona empujar la creatividad</h3>
               <p>Барселона, Испания</p>
               <a href="">Номера</a>
@@ -273,14 +289,16 @@
           <li>
             <img class="placement_img" src="img/placement_6.jpg" alt="">
             <div class="placement-info">
-              <p>от 6 490 р / ночь</p>
-              <span>
-                <img src="img/i-star.png" alt="Рейтинг 4 из 5">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star-empty.png">
-              </span>
+              <div class="placement-info-star">
+                <p>от 6 490 р / ночь</p>
+                <span>
+                  <img src="img/i-star.png" alt="Рейтинг 4 из 5">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star-empty.png">
+                </span>
+              </div>
               <h3 class="placement-heading">Lagoona el retorno</h3>
               <p>Барселона, Испания</p>
               <a href="">Номера</a>
@@ -289,14 +307,16 @@
           <li>
             <img class="placement_img" src="img/placement_7.jpg" alt="">
             <div class="placement-info">
-              <p>от 6 505 р / ночь</p>
-              <span>
-                <img src="img/i-star.png" alt="Рейтинг 5 из 5">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-              </span>
+              <div class="placement-info-star">
+                <p>от 6 505 р / ночь</p>
+                <span>
+                  <img src="img/i-star.png" alt="Рейтинг 5 из 5">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                </span>
+              </div>
               <h3 class="placement-heading">Lagoona enfermo terminó</h3>
               <p>Барселона, Испания</p>
               <a href="">Номера</a>
@@ -305,14 +325,16 @@
           <li>
             <img class="placement_img" src="img/placement_8.jpg" alt="">
             <div class="placement-info">
-              <p>от 6 824 р / ночь</p>
-              <span>
-                <img src="img/i-star.png" alt="Рейтинг 4 из 5">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star.png">
-                <img src="img/i-star-empty.png">
-              </span>
+              <div class="placement-info-star">
+                <p>от 6 824 р / ночь</p>
+                <span>
+                  <img src="img/i-star.png" alt="Рейтинг 4 из 5">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star.png">
+                  <img src="img/i-star-empty.png">
+                </span>
+              </div>
               <h3 class="placement-heading">Lagoona suerte siguió siempre</h3>
               <p>Барселона, Испания</p>
               <a href="">Номера</a>
