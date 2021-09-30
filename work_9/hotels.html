@@ -361,6 +361,93 @@
         </ul>
     </div>
     </section>
+
+    <section class="tour_form">
+      <div class="container">
+        <h2>Хочу тур</h2>
+        <form class="tour_form_input" action="https://jsonplaceholder.typicode.com/posts" method="post" form-inline>
+          <div class="element">
+            <p>Город вылета</p>
+            <select name="city">
+              <option value="">Москва</option>
+              <option value="">Калининград</option>
+              <option value="">Иркутск</option>
+              <option value="">Сочи</option>
+              <option value="">Крым</option>
+            </select>
+          </div>
+          <div class="hr"></div>
+          <div class="element">
+            <p>Страна</p>
+            <select name="country">
+              <option value="">Рим</option>
+              <option value="">Германия</option>
+              <option value="">Англия</option>
+              <option value="">Япония</option>
+              <option value="">США</option>
+            </select>
+          </div>
+          <div class="hr"></div>
+          <div class="element">
+            <p>Дата прибытия</p>
+            <input type="date">
+          </div>
+          <div class="hr"></div>
+          <div class="element">
+            <p>Ночей</p>
+            <input type="number" min="1" max="99">
+          </div>
+          <div class="hr"></div>
+          <div class="element">
+            <p>Туристы</p>
+            <input type="number" min="1" max="10" required>
+          </div>
+          <div class="hr"></div>
+          <div class="element">
+            <a href="#" class="button-org form-button" type="button">Найти</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="container">
+        <h2>Контакты</h2>
+        <div class="contacts_block">
+          <div class="contacts_info">
+            <table class="contacts_table">
+              <tr>
+                  <td>Адрес</td>
+                  <td>Москва, улица Юности, дом 5 строение 4, офис 2</td>
+              </tr>
+              <tr>
+                  <td>Телефоны</td>
+                  <td>
+                    <a href="#">+7 (499) 535-64-34</a>
+                    <br>
+                    <a href="#">+7 (495) 005-05-44</a>
+                  </td>
+              </tr>
+              <tr>
+                  <td>E-mail</td>
+                  <td>
+                    <a href="#">lg.oona@mail.ru</a>
+                    <span>по вопросам бронирования</span>
+                    <a href="#">hotels.ln@mail.ru</a>
+                    <span>по вопросам сотрудничества</span>
+                  </td>
+              </tr>
+              <tr>
+                  <td>График</td>
+                  <td>Понедельник - пятница, с 10:00 до 19:00</td>
+              </tr>
+          </table>
+          <a class="button-org button-contacts" href="">Построить маршрут</a>
+          </div>
+          <img class="contacts_img" src="img/contacts.jpg" alt="">
+        </div>
+      </div>
+    </section>
   </main>
 
 </body>
