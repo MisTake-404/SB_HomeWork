@@ -505,3 +505,17 @@ input[type="number"]{
 }
 .contacts_img{
 }
+
+
+
+/* footer */
+
+
+footer{
+  background-color: #333333;
+  border-radius: 15px;
+  color: #fff;
+}
+.footer-link{
+  color: #e9e9e9;
+}
