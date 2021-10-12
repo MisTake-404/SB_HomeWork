@@ -513,7 +513,7 @@ input[type="number"]{
 
 footer{
   background-color: #333333;
-  border-radius: 15px;
+  border-radius: 15px 15px 0 0;
   color: #fff;
 }
 .footer-link{
@@ -525,6 +525,10 @@ footer{
   justify-content: space-between;
   padding-top: 45px;
   padding-bottom: 45px;
+
+  background-image: url(../img/logo_footer.png);
+  background-repeat: no-repeat;
+  background-position: 85% bottom;
 }
 .footer-left{
   max-width: 330px;
@@ -544,4 +548,7 @@ footer{
 
 .footer-right{
   /* background-color: red; */
+}
+.footer-right li{
+  margin-bottom: 20px;
 }
