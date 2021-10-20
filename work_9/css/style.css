@@ -1,17 +1,17 @@
 @font-face{
     font-family: 'Muller';
 
-    src: url('fonts/MullerBold.woff');
-    src: url('fonts/MullerBold.woff2');
+    src: url('../fonts/MullerBold.woff');
+    src: url('../fonts/MullerBold.woff2');
 
-    src: url('fonts/MullerLight.woff');
-    src: url('fonts/MullerLight.woff2');
+    src: url('../fonts/MullerLight.woff');
+    src: url('../fonts/MullerLight.woff2');
 
-    src: url('fonts/MullerMedium.woff');
-    src: url('fonts/MullerMedium.woff2');
+    src: url('../fonts/MullerMedium.woff');
+    src: url('../fonts/MullerMedium.woff2');
 
-    src: url('fonts/MullerRegular.woff');
-    src: url('fonts/MullerRegular.woff2');
+    src: url('../fonts/MullerRegular.woff');
+    src: url('../fonts/MullerRegular.woff2');
 }
 
 * {
@@ -38,8 +38,8 @@ html {
 }
 
 h2{
-	margin-left: 45px;
-
+  padding: 20px 45px;
+  font-weight: normal;
 	font-size: 40px;
 	line-height: 40px;
 	color: #333333;
@@ -48,7 +48,7 @@ h2{
 body{
 	background-color: #F1F1F1;
 }
-p, h3{
+p, h3, h2{
   margin: 0;
 }
 
@@ -73,7 +73,7 @@ p, h3{
 
 header{
 	padding-top: 30px;
-	margin-bottom: 70px;
+	padding-bottom: 35px;
 }
 .header-container{
 	display: flex;
@@ -105,6 +105,7 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	padding: 27px 45px;
+  height: 70px;
 
 	background: #FFFFFF;
 	border-radius: 15px;
@@ -128,7 +129,7 @@ header{
 
 
 .special_offers{
-	margin-bottom: 70px;
+  padding: 35px 0;
 }
 .special_offers_content{
 	display: flex;
@@ -218,7 +219,7 @@ header{
 
 
 .about_us{
-	margin-bottom: 70px;
+	padding: 35px 0;
 }
 .about_us p{
 	max-width:888px;
@@ -231,8 +232,7 @@ header{
 
 
 .services{
-	margin-bottom: 47px;
-	/* 70-23 */
+  padding: 35px 0;
 }
 .services_content{
 	display: flex;
@@ -280,8 +280,10 @@ header{
 	display: flex;
   align-items: center;
 }
-.services_content_block_info a svg{
-	margin-left: 5px;
+.services-code{
+	padding-left: 5px;
+  font-size: 30px;
+  padding-bottom: 3px;
 }
 .services_content_block_info p{
 	max-width: 400px;
@@ -294,8 +296,7 @@ header{
 
 
 .advantages{
-	margin-bottom: 47px;
-	/* 70-23 */
+	padding: 35px 0;
 }
 .advantages_list{
 	display: flex;
@@ -303,10 +304,7 @@ header{
 	flex-wrap: wrap;
 }
 .advantages_list li{
-	/* max-width: calc((100% - 23px) / 4); */
-	/* min-height: 275px; */
-	width: 275px;
-	height: 275px;
+  width: calc((100% - 23px*3) / 4);
 
 	padding: 40px;
 	margin-bottom: 23px;
@@ -353,7 +351,7 @@ header{
 
 
 .placement{
-	margin-bottom: 47px;
+	padding: 35px 0;
 }
 .placement_list{
 	display: flex;
@@ -388,6 +386,9 @@ header{
   line-height: 16px;
   color: #999999;
 }
+.pis-price{
+  font-size: 20px;
+}
 
 .placement_last_item{
 	display: flex;
@@ -414,8 +415,7 @@ header{
 
 .tour_form{
 	background-color: #e9e9e9;
-	padding:38px 0 70px;
-  margin-bottom: 70px;
+  padding: 35px 0;
 }
 .tour_form_input{
 	background-color: #fff;
@@ -450,6 +450,7 @@ input[type="number"]{
   width: 100%;
   text-align: center;
   padding: 13px 0;
+  -webkit-appearance: button;
 }
 
 
@@ -457,7 +458,7 @@ input[type="number"]{
 
 
 .contacts{
-  margin-bottom:20px;
+  padding: 35px 0 20px;
 }
 .contacts_block{
   display: flex;
